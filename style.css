@@ -1,0 +1,379 @@
+body{
+    text-align: center;
+    background-color: rgb(10, 33, 44);
+}
+/*Rodapé*/
+footer{
+    background-color: #07112c;
+    color: White;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    min-height: 30vh;
+    margin-top: auto;
+    font-size: 14px;
+    justify-content: space-around;
+   
+}
+
+footer div{
+    margin-top: 10px;
+}
+
+#links-rodape{
+    display: flex;
+    flex-direction: column;
+}
+/*  */
+.prods {
+    display: inline-block; 
+    margin: 18px;
+    text-align: center; 
+    border-radius: 6px;
+}
+a {
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    
+    
+}
+.adois{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.carousel-item img {
+    border-radius: 10px; 
+    border:none;
+    border-radius: 7px;
+}
+.back{
+border-color: transparent;
+
+}
+.logoju {
+    display: inline-block;
+    margin: 10px;
+}
+
+h2 {
+    color: white;
+}
+.buttonp button {
+    padding: 10px; /* Espaço interno em todos os lados do botão */
+}
+.agatres:hover{
+    color: #ffffff;
+}
+h3{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fcfcfc;
+}
+h3:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fcfcfc;
+  }
+  h5{
+    color: white;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h5:hover{
+      font-size: 30px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: #fcfcfc;
+    }
+  .imgaumenta{
+    padding: 10px; 
+    display: inline-block;
+    border-radius: 7px;
+  }
+  img{
+    border-radius: 7px;
+  }
+  .imgaumenta:hover {
+    transform: scale(0.9);
+    border-radius: 7px;
+    border: white solid 3px;
+    transition: transform 0.5s ease;
+  }
+  .cardvi .prods:hover .card {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.logocresce:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.ladobuton {
+ text-align: justify;
+
+}
+.buttonpalavra{
+background-color: white;
+border-radius: 5px;
+border: none;
+}
+.inputpalavra{
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+.lado {
+    display: inline-block;
+   
+}
+.lados {
+    display: inline-block;
+    margin-bottom: 15px;
+    
+}
+
+.imgaumenta:active {
+    
+    border: red solid 3px;
+
+  }
+  .anacastela{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    height: 500px;
+
+  }
+  /*Cabeçalho*/
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #07112c;
+    padding: 12px;
+    justify-content: space-around;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 1.3em;
+    margin: 10px;
+}
+a{
+    margin: 3px;
+    color: #ffffff;
+    text-align: center;
+    padding: 6px 9px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: #1c7db6;
+}
+p{
+    color: white;
+}
+a:hover{
+    background-color: #a5c9f3;
+    color:#0f172b;
+    text-decoration: none;
+}
+.destaque {
+    background-color: #ffffff;
+    color:  #0f172b;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.jogotrocaletras{
+    color: aliceblue;
+}
+
+/*  jogo troca*/
+.texttroca{
+    text-align: center;
+    background-color:  #065f92;
+    border-radius: 15px;
+    padding: 40px;
+    font-size: 25px;
+    max-width:  760px;
+    margin: 20px auto;
+}
+.ladoum {
+    margin-bottom: 25px;
+}
+/* JOGO VELHA */
+
+#jogo{
+    border: #1c7db6 solid 3px;
+    border-radius: 17px;
+    margin-left: 400px;
+    width: 603px;
+    height: 603px;    
+    border: solid 3px;
+    display: inline-block; 
+    float: left;   
+    background-color: white;
+}
+#resultado{
+    margin-left: 30px;
+    float: left;
+}
+#resposta{
+    margin-right: 300px;
+    font-size: 30;
+    font-style: italic;
+    font-weight: bold;
+    color: #f5ff00;
+}
+.linha{
+    height: 200px;
+    border-bottom: solid 1px;
+}
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
+.xis{
+    margin-right: 300px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.bola{
+    margin-right: 300px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.velha{
+    margin-right: 300px;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+input[type = button], input[type = submit], input[type = reset] {
+    margin-right: 300px;
+    background-color: #1c7db6;
+    background-image: linear-gradient(to bottom, #1c7db6, #1c7db6);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #1c7db6 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type = button]:hover {
+    background: #1E62D0;
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    text-decoration: none;
+}
+#casa0, #casa1, #casa2, #casa3, #casa4, #casa5{
+    border-bottom: solid 1px;
+}
+
+/* JOGO DA FORCA */
+.linhabaixo {
+    margin-bottom: 15px;
+}
+.buttonforca{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #050505;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #ffffff 0%, #ebebeb 50%, #dbdbdb 50%, #b5b5b5);
+    border-radius: 10px;
+    border: 1px solid #949494;
+    box-shadow: 0px 1px 3px rgba(000,000,000,0.5), inset 0px 0px 2px rgb(255, 255, 255,1);
+    text-shadow: 0px -1px 0px rgba(000, 000, 000,0.2), 0px 1px 0px rgba(255, 255, 255, 1);
+}
+.buttonforca:hover{
+    background: linear-gradient(to top, #ffffff 0%, #ebebeb 50%, #dbdbdb 50%, #b5b5b5);
+}
+.buttonforca:disabled{
+    background: #b5b2b2;
+    color: #cbcbcb;
+}
+
+#jogoforca{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+#titulo{
+    /* NEON */
+    text-align: center;
+    margin: 40px auto;
+    font-family: "Berlin Sans FB", "Bauhaus 93";
+    font-size: 40px ; text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff,0 0 15px #fff, 0 0 20px #0600a7, 0 0 35px #0600a7, 0 0 40px #0600a7, 0 0 50px #0600a7, 0 0 75px #0600a7;
+}
+#tabeladiv{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#forma img{
+    width: 55%;
+    height: 55%;
+    float: right;
+}
+#tema{
+    text-align: center;
+    margin: 5px auto;
+    font-family: "Berlin Sans FB", "Bauhaus 93";
+    font-size: 20px ; text-transform: uppercase;
+    color: #fff;
+    
+}
+#tentativa{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+}
+#tenta{
+    margin-left: 5px;
+    text-align: center;
+    font-size: 20px;
+    color: forestgreen;
+}
+input{
+    margin-left: 1px;
+    text-align: center;
+    font-size: 20px;
+    color: forestgreen;
+}
+#acerto{
+    text-align: center;
+    margin: 5px auto;
+    font-family: "Berlin Sans FB", "Bauhaus 93";
+    font-size: 20px ; text-transform: uppercase;
+    color: #ffffff;
+}
+#palcerta{
+    text-align: center;
+    margin: 5px auto;
+    font-family: "Berlin Sans FB", "Bauhaus 93";
+    font-size: 20px ; text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0 0 5px #f1f1f1, 0 0 10px #fff;
+}
+#tabAcerto{
+    width: 30%;
+}
+/*  */
